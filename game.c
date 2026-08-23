@@ -18,7 +18,7 @@ int main() {
 
     srand(time(NULL));
 
-    printf("===== ROCK PAPER SCISSORS =====\n\n");
+    printf("===== ROCK PAPER SCISSORS =====\n\n"); 
     printf("\n1. Rock\n2. Paper\n3. Scissors\n\n");
 
     for (int round = 1; round <= 5; round++) {
