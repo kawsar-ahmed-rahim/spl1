@@ -1,0 +1,13 @@
+{
+  "name": "rps-web",
+  "version": "1.0.0",
+  "description": "Browser interface for a C rock-paper-scissors game, served via a Node backend",
+  "main": "server.js",
+  "scripts": {
+    "build:c": "gcc -o rps rps.c",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
